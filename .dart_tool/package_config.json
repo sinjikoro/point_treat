@@ -152,6 +152,12 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "very_good_analysis",
+      "rootUri": "file:///Users/shinji.nagasaki/.pub-cache/hosted/pub.dev/very_good_analysis-5.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vm_service",
       "rootUri": "file:///Users/shinji.nagasaki/.pub-cache/hosted/pub.dev/vm_service-13.0.0",
       "packageUri": "lib/",
@@ -164,7 +170,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-05-13T13:49:43.755125Z",
+  "generated": "2024-05-13T14:23:51.564360Z",
   "generator": "pub",
   "generatorVersion": "3.3.1"
 }

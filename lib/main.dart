@@ -4,7 +4,9 @@ void main() {
   runApp(const MainApp());
 }
 
+/// Entry point for the application.
 class MainApp extends StatelessWidget {
+  /// Default constructor for the [MainApp].
   const MainApp({super.key});
 
   @override
