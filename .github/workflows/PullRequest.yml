@@ -1,29 +1,27 @@
-name: Flutter test & Analyze
+name: CI/CD
 
 on:
   pull_request:
     branches: [ "main" ]
 
 jobs:
-  build:
+  ContinuousIntegration:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
 
       - name: install fvm
-        run: |
-          brew tap leoafarias/fvm
-          brew install fvm
+        run: curl -fsSL https://fvm.app/install.sh | bash
 
       - name: setup flutter
         run: fvm install
 
       - name: Install dependencies
-        run: dart pub get
+        run: fvm flutter pub get
 
       - name: Analyze project source
-        run: dart analyze
+        run: fvm flutter analyze
 
       - name: Run tests
-        run: dart test
+        run: fvm flutter test
