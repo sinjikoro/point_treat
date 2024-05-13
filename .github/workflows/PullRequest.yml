@@ -1,0 +1,29 @@
+name: Flutter test & Analyze
+
+on:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: install fvm
+        run: |
+          brew tap leoafarias/fvm
+          brew install fvm
+
+      - name: setup flutter
+        run: fvm install
+
+      - name: Install dependencies
+        run: dart pub get
+
+      - name: Analyze project source
+        run: dart analyze
+
+      - name: Run tests
+        run: dart test
