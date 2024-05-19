@@ -1,10 +1,10 @@
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/view/children_list.dart';
-import 'package:point_treat/view/point_history.dart';
+import 'package:point_treat/view/children_list_view.dart';
+import 'package:point_treat/view/point_history_view.dart';
 import 'package:point_treat/view/routes/paths.dart';
-import 'package:point_treat/view/settings.dart';
-import 'package:point_treat/view/top.dart';
-import 'package:point_treat/view/treat_list.dart';
+import 'package:point_treat/view/settings_view.dart';
+import 'package:point_treat/view/top_view.dart';
+import 'package:point_treat/view/treat_list_view.dart';
 
 /// GoRouter instance.
 GoRouter goRouter = GoRouter(
