@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:point_treat/view/routes/routes.dart';
+import 'package:point_treat/presentation/routes/routes.dart';
 
 void main() {
   runApp(const MainApp());
@@ -17,7 +17,7 @@ class MainApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      routerConfig: goRouter,
+      routerConfig: router,
     );
   }
 }
