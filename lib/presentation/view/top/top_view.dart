@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:point_treat/presentation/view/top/widgets/account_card.dart';
 import 'package:point_treat/presentation/view/top/widgets/ticket_list.dart';
-import 'package:point_treat/presentation/view/top/widgets/treats_floating_action_button.dart';
 
 /// top view.
 class TopView extends StatelessWidget {

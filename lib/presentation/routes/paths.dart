@@ -10,8 +10,8 @@ class Paths {
   static const String settings = '/settings';
 
   /// The children list path.
-  static const String childrenList = '/settings/childrenlist';
+  static const String childrenList = 'childrenlist';
 
   /// The treat list path.
-  static const String treatList = '/settings/treatlist';
+  static const String treatList = 'treatlist';
 }
