@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_treat/presentation/view/top/widgets/account_card.dart';
-import 'package:point_treat/presentation/view/top/widgets/ticket_list.dart';
+import 'package:point_treat/presentation/view/top/parts/account_card.dart';
+import 'package:point_treat/presentation/view/top/parts/ticket_list.dart';
 
 /// top view.
 class TopView extends StatelessWidget {
@@ -9,16 +9,11 @@ class TopView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      // ToDo: SafeAreaを毎画面書くのは面倒なので、mixin等で共通化したい
-      body: SafeArea(
-        child: Column(
-          children: [
-            AccountCard(accountName: 'たろう', point: 10000),
-            TicketList(),
-          ],
-        ),
-      ),
+    return const Column(
+      children: [
+        AccountCard(accountName: 'たろう', point: 10000),
+        TicketList(),
+      ],
     );
   }
 }

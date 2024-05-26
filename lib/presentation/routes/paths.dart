@@ -1,13 +1,10 @@
 /// This file contains all the paths used in the app.
 class Paths {
-  /// The top path.
-  static const String top = '/';
+  /// The settings path.
+  static const String mainMenu = 'mainmenu';
 
   /// The point history path.
-  static const String pointHistory = '/pointhistory';
-
-  /// The settings path.
-  static const String settings = '/settings';
+  static const String pointHistory = 'pointhistory';
 
   /// The children list path.
   static const String childrenList = 'childrenlist';

@@ -206,6 +206,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "flutter_slidable",
+      "rootUri": "file:///Users/shinji.nagasaki/.pub-cache/hosted/pub.dev/flutter_slidable-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/shinji.nagasaki/fvm/versions/stable/packages/flutter_test",
       "packageUri": "lib/",
@@ -560,7 +566,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-05-19T08:22:16.035791Z",
+  "generated": "2024-05-26T04:20:39.414444Z",
   "generator": "pub",
   "generatorVersion": "3.4.0",
   "flutterRoot": "file:///Users/shinji.nagasaki/fvm/versions/stable",

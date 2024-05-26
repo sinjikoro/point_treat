@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:point_treat/presentation/routes/routes.dart';
+import 'package:point_treat/presentation/theme/default_theme.dart';
 
 void main() {
   runApp(const MainApp());
@@ -13,10 +14,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      theme: defaultTheme,
       routerConfig: router,
     );
   }
