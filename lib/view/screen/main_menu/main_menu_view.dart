@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/presentation/routes/paths.dart';
+import 'package:point_treat/view/routes/paths.dart';
 
 /// Settings view.
 class MainMenuView extends StatelessWidget {

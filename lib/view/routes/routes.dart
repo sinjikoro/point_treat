@@ -1,11 +1,11 @@
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/presentation/routes/paths.dart';
-import 'package:point_treat/presentation/view/children_list/children_list_view.dart';
-import 'package:point_treat/presentation/view/main_menu/main_menu_view.dart';
-import 'package:point_treat/presentation/view/point_history/point_history_view.dart';
-import 'package:point_treat/presentation/view/top/top_view.dart';
-import 'package:point_treat/presentation/view/treat_list/treat_list_view.dart';
-import 'package:point_treat/presentation/widgets/default_scaffold.dart';
+import 'package:point_treat/view/routes/paths.dart';
+import 'package:point_treat/view/screen/children_list/children_list_view.dart';
+import 'package:point_treat/view/screen/home/home_view.dart';
+import 'package:point_treat/view/screen/main_menu/main_menu_view.dart';
+import 'package:point_treat/view/screen/point_history/point_history_view.dart';
+import 'package:point_treat/view/screen/treat_list/treat_list_view.dart';
+import 'package:point_treat/view/widgets/default_scaffold.dart';
 
 /// Router configuration.
 final router = GoRouter(
@@ -19,7 +19,7 @@ final router = GoRouter(
           routes: <RouteBase>[
             GoRoute(
               path: '/', // initial route
-              builder: (_, __) => const TopView(),
+              builder: (_, __) => const HomeView(),
             ),
           ],
         ),

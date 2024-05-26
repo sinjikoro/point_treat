@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/presentation/widgets/task_modal.dart';
+import 'package:point_treat/view/widgets/task_modal.dart';
 
 /// Default Scaffold for the app.
 class DefaultScaffold extends StatelessWidget {
@@ -56,6 +56,7 @@ class _FloatingActionButton extends StatelessWidget {
   void _showModal(BuildContext context) {
     showModalBottomSheet<void>(
       context: context,
+      isScrollControlled: true,
       builder: (BuildContext context) {
         return const TaskModal();
       },

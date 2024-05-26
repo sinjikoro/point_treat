@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_treat/presentation/routes/routes.dart';
-import 'package:point_treat/presentation/theme/default_theme.dart';
+import 'package:point_treat/view/routes/routes.dart';
+import 'package:point_treat/view/theme/default_theme.dart';
 
 void main() {
   runApp(const MainApp());
