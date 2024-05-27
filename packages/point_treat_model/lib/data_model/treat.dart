@@ -1,13 +1,10 @@
-import 'package:json/json.dart';
-
-/// Model class for Treat
-@JsonCodable()
+/// Treat data model
 class Treat {
-  /// Constructor
-  const Treat({
+  /// constructor
+  Treat({
     required this.id,
     required this.name,
-    required this.description,
+    this.description = '',
   });
 
   /// treat id

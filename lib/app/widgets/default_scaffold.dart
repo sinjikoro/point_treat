@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/view/widgets/task_modal.dart';
+import 'package:point_treat/app/widgets/task_modal.dart';
 
 /// Default Scaffold for the app.
 class DefaultScaffold extends StatelessWidget {

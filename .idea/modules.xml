@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/point_treat.iml" filepath="$PROJECT_DIR$/point_treat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/point_treat_android.iml" filepath="$PROJECT_DIR$/android/point_treat_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/point_treat_model/melos_point_treat_model.iml" filepath="$PROJECT_DIR$/packages/point_treat_model/melos_point_treat_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/point_treat_view_model/melos_point_treat_view_model.iml" filepath="$PROJECT_DIR$/packages/point_treat_view_model/melos_point_treat_view_model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_point_treat.iml" filepath="$PROJECT_DIR$/melos_point_treat.iml" />
     </modules>
   </component>
 </project>

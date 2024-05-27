@@ -1,0 +1,8 @@
+name: point_treat
+
+packages:
+  - packages/*
+
+scripts:
+  analyze:
+    exec: dart analyze .

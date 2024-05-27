@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:point_treat/view/screen/home/parts/account_card.dart';
-import 'package:point_treat/view/screen/home/parts/ticket_list.dart';
+import 'package:point_treat/app/screen/home/parts/account_card.dart';
+import 'package:point_treat/app/screen/home/parts/ticket_list.dart';
 
 /// home view.
 class HomeView extends StatelessWidget {

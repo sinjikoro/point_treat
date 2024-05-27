@@ -1,11 +1,11 @@
 import 'package:go_router/go_router.dart';
-import 'package:point_treat/view/routes/paths.dart';
-import 'package:point_treat/view/screen/children_list/children_list_view.dart';
-import 'package:point_treat/view/screen/home/home_view.dart';
-import 'package:point_treat/view/screen/main_menu/main_menu_view.dart';
-import 'package:point_treat/view/screen/point_history/point_history_view.dart';
-import 'package:point_treat/view/screen/treat_list/treat_list_view.dart';
-import 'package:point_treat/view/widgets/default_scaffold.dart';
+import 'package:point_treat/app/routes/paths.dart';
+import 'package:point_treat/app/screen/children_list/children_list_view.dart';
+import 'package:point_treat/app/screen/home/home_view.dart';
+import 'package:point_treat/app/screen/main_menu/main_menu_view.dart';
+import 'package:point_treat/app/screen/point_history/point_history_view.dart';
+import 'package:point_treat/app/screen/treat_list/treat_list_view.dart';
+import 'package:point_treat/app/widgets/default_scaffold.dart';
 
 /// Router configuration.
 final router = GoRouter(
